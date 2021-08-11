@@ -158,12 +158,12 @@ body {
 
 a {
     text-decoration: none !important;
-    color:#3196e2;
+    color: #3196e2;
 }
 
-a:hover {
-    color:#0088e8;
-}
+    a:hover {
+        color: #0088e8;
+    }
 
 h1,
 h2,
@@ -895,6 +895,7 @@ about
         display: none;
     }
 }
+
 @media (max-width: 991px) {
     .mobile-hidden {
         display: none;
@@ -909,54 +910,79 @@ about
         margin-bottom: 40px;
     }
 
-#about2 {
+#about2,
+#Copywriting, #Artes, #Organico, #Contenido, #Redes, #Performance, #Ads,
+#Producto, #Empresarial, #Promocionales, #Corporativos,
+#Web, #Ecommerce, #EMarketing, #Keywords, #Pymes, #MDigital, #RedesSociales {
     padding: 120px 0px;
-    padding-top:  60px;
+    padding-top: 60px;
 }
+
 @media (max-width: 765px) {
-    #about2 {
+    #about2,
+    #Copywriting, #Artes, #Organico, #Contenido, #Redes, #Performance, #Ads,
+    #Producto, #Empresarial, #Promocionales, #Corporativos,
+    #Web, #Ecommerce, #EMarketing, #Keywords, #Pymes, #MDigital, #RedesSociales {
         padding: 20px 0px 60px 0px;
     }
 }
 
-    #about2 .right-image {
-        align-self: center;
-    }
+#about2 .right-image,
+#Copywriting .right-image, #Artes .right-image, #Organico .right-image, #Contenido .right-image, #Redes .right-image, #Performance .right-image, #Ads .right-image,
+#Producto .right-image, #Empresarial .right-image, #Promocionales .right-image, #Corporativos .right-image,
+#Web .right-image, #Ecommerce .right-image, #EMarketing .right-image, #Keywords .right-image, #Pymes .right-image, #MDigital .right-image, #RedesSociales .right-image {
+    align-self: center;
+}
 
-    #about h5,
-    #about2 h5 {
-        font-size: 26px;
-        font-weight: 700;
+#about h5,
+#about2 h5,
+#Copywriting h5, #Artes h5, #Organico h5, #Contenido h5, #Redes h5, #Performance h5, #Ads h5,
+#Producto h5, #Empresarial h5, #Promocionales h5, #Corporativos h5,
+#Web h5, #Ecommerce h5, #EMarketing h5, #Keywords h5, #Pymes h5, #MDigital h5, #RedesSociales h5 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+#about p,
+#about2 p,
+#Copywriting p, #Artes p, #Organico p, #Contenido p, #Redes p, #Performance p, #Ads p,
+#Producto p, #Empresarial p, #Promocionales p, #Corporativos p,
+#Web p, #Ecommerce p, #EMarketing p, #Keywords p, #Pymes p, #MDigital p, #RedesSociales p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+#about2 ul li img,
+#Copywriting ul li img, #Artes ul li img, #Organico ul li img, #Contenido ul li img, #Redes ul li img, #Performance ul li img, #Ads ul li img,
+#Producto ul li img, #Empresarial ul li img, #Promocionales ul li img, #Corporativos ul li img,
+#Web ul li img, #Ecommerce ul li img, #EMarketing ul li img, #Keywords ul li img, #Pymes ul li img, #MDigital ul li img, #RedesSociales ul li img {
+    display: inline;
+    float: left;
+}
+
+#about2 ul li .text,
+#Copywriting ul li .text, #Artes ul li .text, #Organico ul li .text, #Contenido ul li .text, #Redes ul li .text, #Performance ul li .text, #Ads ul li .text,
+#Producto ul li .text, #Empresarial ul li .text, #Promocionales ul li .text, #Corporativos ul li .text,
+#Web ul li .text, #Ecommerce ul li .text, #EMarketing ul li .text, #Keywords ul li .text, #Pymes ul li .text, #MDigital ul li .text, #RedesSociales ul li .text {
+    margin-left: 10px;
+}
+
+    #about2 ul li .text h6,
+    #Copywriting ul li .text h6, #Artes ul li .text h6, #Organico ul li .text h6, #Contenido ul li .text h6, #Redes ul li .text h6, #Performance ul li .text h6, #Ads ul li .text h6,
+    #Producto ul li .text h6, #Empresarial ul li .text h6, #Promocionales ul li .text h6, #Corporativos ul li .text h6,
+    #Web ul li .text h6, #Ecommerce ul li .text h6, #EMarketing ul li .text h6, #Keywords ul li .text h6, #Pymes ul li .text h6, #MDigital ul li .text h6, #RedesSociales ul li .text h6 {
+        padding-top: 12px;
+        font-size: 21px;
+        font-weight: 500;
         color: #1e1e1e;
-        line-height: 40px;
-        margin-bottom: 25px;
-        letter-spacing: 0.5px;
+        margin-bottom: 20px;
     }
-
-    #about p,
-    #about2 p {
-        margin-bottom: 30px;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.5px;
-    }
-
-    #about2 ul li img {
-        display: inline;
-        float: left;
-    }
-
-    #about2 ul li .text {
-        margin-left: 10px;
-    }
-
-        #about2 ul li .text h6 {
-            padding-top: 12px;
-            font-size: 21px;
-            font-weight: 500;
-            color: #1e1e1e;
-            margin-bottom: 20px;
-        }
 
 /* 
 ---------------------------------------------
@@ -988,6 +1014,7 @@ services 145deg, #d5cfe1 0%, #9b74ac 100%
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     position: relative;
+    border-radius: 0px 30px 0px 30px;
 }
 
 @media screen and (max-width: 920px) {
@@ -1253,7 +1280,7 @@ contact
 
 .contact-form {
     padding: 100px;
-    background: #9b74ac; 
+    background: #9b74ac;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
 
@@ -1406,7 +1433,7 @@ preloader
             opacity: 0;
             width: 50px;
             height: 50px;
-            /*Animaci�n circulo pulsa TIME*/
+            /*Animaciï¿½n circulo pulsa TIME*/
             -webkit-animation: jumper 0.5s 0s linear infinite;
             animation: jumper 0.5s 0s linear infinite;
         }
