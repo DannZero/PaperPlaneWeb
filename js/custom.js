@@ -75,14 +75,14 @@
             }
         }
     });
-
+/* 
     // Servicios
     $(".service-item").on("click", function () {
         var item = $(this);
         var id = $(item).attr("id").split("-")[1];
         var url = window.location.href.replace("index", (id == "1") ? "estrategia" : (id == "2") ? "audiovisual" : "digital");
         window.location = url;
-    });
+    }); */
 
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
